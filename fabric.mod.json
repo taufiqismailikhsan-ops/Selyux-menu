@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "selyuxstyle-menu",
+  "version": "${version}",
+  "name": "Selyux Style Menu",
+  "description": "A Donut/Selyux-style server menu with Friends replaced by Shop.",
+  "authors": ["Fadhil"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fadhil.selyuxmenu.SelyuxMenuClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
